@@ -8,7 +8,7 @@
  for($x=0; $x < $dx; $x++) {
  $col = imagecolorat($im, $x, $y);
  $rgb = imagecolorsforindex($im,$col);
- printf("<font color=#%02x%02x%02x>()</font>",
+ printf("<font color=#%02x%02x%02x>01</font>",
  $rgb['red'],$rgb['green'],$rgb['blue']);
  }
  echo "<br />\n";
